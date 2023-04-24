@@ -29,8 +29,16 @@ The dataset about expenditures for the healthcare system worldwide is taken from
 
 ## Jupyter Notebook 
 
-The project jupyter notebook with Python Code and SQL queries is provided in file: 
+The project jupyter notebook with Python Code and SQL queries is provided in file: https://github.com/orlovtsu/depression_worldwide/blob/main/depression_worldwide.ipynb
+
 The database credentials are not provided because of safety, but anyone who want to reuse this code can use it with own database. I used MySQL database on AWS instance. 
+
+## Results
+
+### 1. Countries by proportion (%) of people with depression <a name="q-1"></a>
+To compare different countries by proportion of people with depression we are going to create a World Map with countries filled by color of different intensity. For the whole project we take the data on 2017 year. To make this Map we need to get dataframe with name of countries and the depression proportion in each country in 2017. 
+
+![Depression Worldwide](/images/depression.png)
 
 ## Gratitudes 
 

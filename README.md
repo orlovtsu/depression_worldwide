@@ -38,7 +38,70 @@ The database credentials are not provided because of safety, but anyone who want
 ### 1. Countries by proportion (%) of people with depression <a name="q-1"></a>
 To compare different countries by proportion of people with depression we are going to create a World Map with countries filled by color of different intensity. For the whole project we take the data on 2017 year. To make this Map we need to get dataframe with name of countries and the depression proportion in each country in 2017. 
 
-![Depression Worldwide](/images/depression.png)
+![Depression Worldwide](/images/Depression worldwide.png)
+
+As we can see from the picture of distribution of diagnosed depression worldwide, the depression rate is highest in most developed countries such as U.S, Canada, Europe, Australia etc. But this is the rate which shows the rate of diagnosed depression. There is the probability of higher hidden depression rate in other countries. But the more important parameter to consider is the value of burden of economics and society. This parameter is called DALY (disability-adjusted life years).
+
+## 2. DALY caused by the depression by country <a name="q-2"></a>
+To measure the impact of depression within each society, the parameter of disability-adjusted life year (DALY) per 100,000 people is utilized. So, to understand the total burden of depression on each society we want to consider the distribution of DALY worldwide. The distribution will be in different plots such as World Map with countries filled by color depending on the DALY parameter and scatterplot DALY-Depression proportion. 
+
+![DALY worldwide](/images/daly.png)
+
+The distribution of DALY worldwide shows that countries which have higher burden of depression on thier society and economics are different than countries with higher diagnosed depression. It means that our hypothesis about hidden depression influence can be significant. Let's consider the correlation between Depression and DALY rates.
+
+![Depression-DALY](/images/DALY_depression.png)
+
+As we can see from the scatterplot of DALY per 100,000 people and Depression rate, there is a corelation between these rates. As depression rate increases the rate of DALY increases too, but this increasement is different depending on different countries. It may be interesting what parameters influence on the DALY comparing different countries. To compare we use the parameters of different Health Systems and expenditures on Health Systems.
+
+## 3. Depression depending on HealthCare system expenditures and affordability of mental health help by country 
+
+To find any dependence of the depression disorder on health care system parameters we decided to check if there are any significant dependencies between the depression proportion by country and such parameters as affordability of menthal health beds in general clinics, beds in mental health clinics, numbers of psychoterapists, number of phycologist, number of social workers and diffrerent economic factors. 
+
+The dependencies will be checked by different scatter plots. 
+
+![Depression - Beds in mental health hospitals per 100,000 people](/images/Depression_beds.png)
+
+The circle sizes and color of points on the scatterplot of Depression rate on the number of beds in mental health hospitals are the rate of DALY. As we can see from the plot there is dependence of Depression rate on the number of beds. As the number of beds in mental health hospitals increases the rate of depression faults. And we can see that most countries in the left part of the plot are most developed countries which pays a lot of attention to health system and mental health diagnostics.
+
+![Depression - Number of psychiatrists per 100,000 people](/images/Depression_psychi.png)
+
+From the scatterplot of Depression rate on the Number of psychiatrists per 100,000 people we can see the similar result. As the number of psychiatrists increase the depression rate faults. If countries invest their efforts to create more job positions for psychiatrists, the average rate of depression faults. Let's consider the same dependencies for DALY parameter.
+
+![DALY - Beds in mental health hospitals per 100,000 people](/images/DALY_beds.png)
+
+As we can see from this scatter plot, the correlation of DALY is the same as the Depression rate. As the number of beds in mental health hospitals increase the rate of DALY decreases.
+
+![DALY - Number of psychiatrists per 100,000 people](/image/DALY_psychi.png)
+
+From the DALY per 100,000 people and number of psyciatrists per 100,000 people scatter plot we can see the same pictrure. So, we can conclude that these two parameters: beds in mental health and number of psychiatrists are very significant for the depression rates and DALY.
+
+## 4. Distribution of DALY and % depressed people of expenditures by country <a name="q-4"></a>
+
+To understand the dependence on economic factors we will use the same methods as scatterplots, bargraphs, boxplots and linear regression. Different economic factors we use are health ependitures by country in percentage on GDP, the proportion of goverment and personal expenditures on health, health expenditures per capita. For this task we use data of 2016 because it is the year of expenditures which is previous to 2017 when we check the depression disorder. So, we the average effect of efforts and expenditures in 2016 can be checked in 2017.
+
+To understand how effective different countries diagnose and treat the depression we want to check the dependencies between DALY and % of depressed people on health expenditures per capita. All data we need to create such scaterplots and other graphs we already have, but some of these data has null values which we want to delete from our dataframe.
+
+![Depression rate vs Health expenditures](/images/Depression_HealthExp.png)
+
+From the scatterplot of Depression rate on Health expenditures as % of GDP we can see that most developed countries spent more money for health, which helps to diagnose more depressed people. If countries know that thay have more depressed people, they can understand how to struggle with it.
+
+![DALY vs Health expenditures](/images/DALY_HealthExp.png)
+
+From the scatter plot of DALY per 100,000 people vs Depression rate we can conclude that most developed countries spent more money to health systems, have higher rate of depression, but because of they pay more attention to health sector, especially to mental health sector, they have less rate of DALY.
+
+![DALY vs Depression](/images/DALY_depression.png)
+
+## Conclusion
+
+The following key thesises can be fomulated:
+
+1. First of all, depression is a widely distributed disorder worldwide, expecially in developed countries with high GDP per capita and high health expenditures per capita. This paradox can be explained by a large amount of attention to the disorder and higher rate of depression diagnostics. This is why countires with higher expenditures for health have a higher rate of depression.
+2. The influence of depression on society and economy can be calculated in DALY per 100,000 and DALY is distributed worldwide not consistently. 
+3. The higher expenditures are significant to the decrease of DALY per 100,000 people in such countries. We can conclude, that if any country spent high amount of money to health system, thay will have higher number of diagnosted depression, but the burden of depression for this economy and society will be compensated.
+4. Beds in mental health hospitals per 100,000 people and the number of psyciatrists per 100,000 people are important to decrease both factors: the proportion of depression and DALY. 
+5. Experience in diagnostics and treatment of some successful countries can be explored to be spread to the worldwide.
+
+Considering the high prevalence and significance of depression, it is vital to explore effective treatment methods used as we will discuss in Northern European countries such as Denmark, Sweden, and Norway in the next section. Moreover, improved diagnostic methods are crucial in the effective management and treatment of depression. We will discuss a diagnostic method used in the USA to aid in modern diagnosis.
 
 ## Gratitudes 
 

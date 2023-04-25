@@ -15,7 +15,7 @@ We also discuss how can different countries work with the depression rate and ho
 
 ## Methodology 
 
-For this project, we aim to use SQL to extract data and create visualizations in python. We will first connect our datasets to SQL. Subsequently, we will write SQL queries (requests) to extract data needed for visualizations and perform any necessary data cleaning/wrangling (i.e. removing missing values, merging tables, etc.). Finally, we will fetch our data from the SQL databases into pandas data frames and will create relevant visualizations using libraries such as matplotlib, seaborn or plotly.
+For this project, we aim to use SQL to extract data and create visualizations in python. We will first connect our datasets to SQL. Subsequently, we will write SQL queries (requests) to extract data needed for visualizations and perform any necessary data cleaning/wrangling (i.e. removing missing values, merging tables, etc.). Finally, we fetch our data from the SQL databases into pandas data frames and create relevant visualizations using plotly.
 
 ## Datasets 
 

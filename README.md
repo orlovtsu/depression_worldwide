@@ -38,7 +38,7 @@ The database credentials are not provided because of safety, but anyone who want
 ### 1. Countries by proportion (%) of people with depression <a name="q-1"></a>
 To compare different countries by proportion of people with depression we are going to create a World Map with countries filled by color of different intensity. For the whole project we take the data on 2017 year. To make this Map we need to get dataframe with name of countries and the depression proportion in each country in 2017. 
 
-![Depression Worldwide](/images/Depression worldwide.png)
+![Depression Worldwide](/images/D**epression_worldwide.png**)
 
 As we can see from the picture of distribution of diagnosed depression worldwide, the depression rate is highest in most developed countries such as U.S, Canada, Europe, Australia etc. But this is the rate which shows the rate of diagnosed depression. There is the probability of higher hidden depression rate in other countries. But the more important parameter to consider is the value of burden of economics and society. This parameter is called DALY (disability-adjusted life years).
 

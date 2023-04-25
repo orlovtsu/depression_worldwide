@@ -89,7 +89,7 @@ From the scatterplot of Depression rate on Health expenditures as % of GDP we ca
 
 From the scatter plot of DALY per 100,000 people vs Depression rate we can conclude that most developed countries spent more money to health systems, have higher rate of depression, but because of they pay more attention to health sector, especially to mental health sector, they have less rate of DALY.
 
-![DALY vs Depression](/images/DALY_depression.png)
+![DALY vs Depression](/images/DALY_depression2.png)
 
 ## Conclusion
 
